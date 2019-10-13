@@ -44,3 +44,4 @@ pause
 }
 
 echo 'Success! The script will now exit.'
+echo -e
