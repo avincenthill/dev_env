@@ -44,6 +44,8 @@ alias f="fuck"
 eval "$(thefuck --alias)"
 
 # nvm
+# load nvm for MacOS
+[[ -s $HOME/.nvm/nvm.sh ]] && . $HOME/.nvm/nvm.sh
 nvm use 10.15.0
 
 # custom aliases
