@@ -36,6 +36,15 @@ pause
 }
 
 {
+
+    cp -i ./config/.bash_aliases ~/.bash_aliases
+    echo 'Done!'
+    pause
+} || {
+    handle_error
+}
+
+{
     cp -i ./config/settings.json ~/Library/Application\ Support/Code/User/settings.json
     echo 'Done!'
     pause
