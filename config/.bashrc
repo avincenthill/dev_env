@@ -35,10 +35,6 @@ export EDITOR=$CODE
 # fzf
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
-# ignore casing in terminal
-bind "set completion-ignore-case on"
-bind "set show-all-if-ambiguous on"
-
 # the fuck https://github.com/nvbn/thefuck
 alias f="fuck"
 eval "$(thefuck --alias)"
